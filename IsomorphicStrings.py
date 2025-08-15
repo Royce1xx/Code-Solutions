@@ -12,6 +12,6 @@ class Solution:
                 if secondLetter in doubleCheck:
                     return False
                 royce[letter] = secondLetter
-                doubleCheck.add
+                doubleCheck.add(secondLetter)
         return True
         
